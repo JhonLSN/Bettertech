@@ -7,6 +7,7 @@
 
     & img {
       max-width: 100%;
+      border-radius: 10px;
     }
 
     &-info {
@@ -16,6 +17,7 @@
       background: #fff;
       width: 40%;
       padding: 75px 75px 5px 75px;
+      border-top-left-radius: 10px;
 
       &__title {
         font-size: 2.8em;

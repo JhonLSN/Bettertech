@@ -133,6 +133,7 @@ table {
 
 .main__about img {
   max-width: 100%;
+  border-radius: 10px;
 }
 
 .main__about-info {
@@ -142,6 +143,7 @@ table {
   background: #fff;
   width: 40%;
   padding: 75px 75px 5px 75px;
+  border-top-left-radius: 10px;
 }
 
 .main__about-info__title {
