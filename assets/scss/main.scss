@@ -65,8 +65,25 @@
       }
     }
 
-    &__btn{
+    &__btn {
       display: flex;
+      justify-content: center;
+
+      & .btn {
+        background: #fff;
+        color: #000;
+        outline: none;
+        border: 1px solid #010103;
+        text-transform: uppercase;
+        font-size: 1em;
+        padding: 10px 20px;
+        cursor: pointer;
+        font-family: "Josefin Sans", sans-serif;
+
+        &:hover{
+          
+        }
+      }
     }
   }
 }

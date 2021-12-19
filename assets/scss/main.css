@@ -78,5 +78,20 @@
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.main__creation__btn .btn {
+  background: #fff;
+  color: #000;
+  outline: none;
+  border: 1px solid #010103;
+  text-transform: uppercase;
+  font-size: 1em;
+  padding: 10px 20px;
+  cursor: pointer;
+  font-family: "Josefin Sans", sans-serif;
 }
 /*# sourceMappingURL=main.css.map */
