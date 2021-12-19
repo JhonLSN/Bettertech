@@ -211,12 +211,21 @@ table {
   background: #fff;
   color: #000;
   outline: none;
-  border: 1px solid black;
+  border: 1px solid #010103;
   text-transform: uppercase;
   font-size: 1em;
-  padding: 10px 15px;
-  border-radius: 5px;
+  margin-top: 20px;
+  padding: 10px 20px;
   cursor: pointer;
   font-family: "Josefin Sans", sans-serif;
+  -webkit-transition: all ease 0.4s;
+  transition: all ease 0.4s;
+}
+
+.main__creation__btn .btn:hover {
+  background: #000;
+  color: #fff;
+  -webkit-transition: all ease 0.4s;
+  transition: all ease 0.4s;
 }
 /*# sourceMappingURL=bundle.css.map */

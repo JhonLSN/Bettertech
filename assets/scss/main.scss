@@ -76,12 +76,16 @@
         border: 1px solid #010103;
         text-transform: uppercase;
         font-size: 1em;
+        margin-top: 20px;
         padding: 10px 20px;
         cursor: pointer;
         font-family: "Josefin Sans", sans-serif;
+        transition: all ease 0.4s;
 
-        &:hover{
-          
+        &:hover {
+          background: #000;
+          color: #fff;
+          transition: all ease 0.4s;
         }
       }
     }
