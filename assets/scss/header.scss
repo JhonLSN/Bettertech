@@ -14,10 +14,29 @@
       display: flex;
 
       &-anchor {
+        position: relative;
         color: #fff;
         font-family: "Alata", sans-serif;
         margin-right: 20px;
         // font-family: 'Josefin Sans', sans-serif;
+
+        &:hover {
+          &::after {
+            width: 100%;
+          }
+        }
+
+        &::after {
+          content: "";
+          position: absolute;
+          background: #fff;
+          transform: translateX(-50%);
+          bottom: -15px;
+          height: 2px;
+          width: 0;
+          left: 50%;
+          transition: all ease 0.3s;
+        }
       }
     }
 

@@ -25,9 +25,28 @@
 }
 
 .header__nav__list-anchor {
+  position: relative;
   color: #fff;
   font-family: "Alata", sans-serif;
   margin-right: 20px;
+}
+
+.header__nav__list-anchor:hover::after {
+  width: 100%;
+}
+
+.header__nav__list-anchor::after {
+  content: "";
+  position: absolute;
+  background: #fff;
+  -webkit-transform: translateX(-50%);
+          transform: translateX(-50%);
+  bottom: -15px;
+  height: 2px;
+  width: 0;
+  left: 50%;
+  -webkit-transition: all ease 0.3s;
+  transition: all ease 0.3s;
 }
 
 .header__nav__icon-hamburger {
