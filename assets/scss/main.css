@@ -51,11 +51,14 @@
   -webkit-box-direction: normal;
       -ms-flex-flow: row wrap;
           flex-flow: row wrap;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
 }
 
 .main__creation .card-view {
   position: relative;
-  margin: 0 40px 10px 0px;
+  margin: 20px 0;
 }
 
 .main__creation .card-view img {
@@ -64,5 +67,16 @@
 
 .main__creation .card-view__legend {
   position: absolute;
+  bottom: 0;
+  color: white;
+  padding: 20px;
+  font-size: 1.2rem;
+  text-transform: uppercase;
+}
+
+.main__creation__btn {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
 }
 /*# sourceMappingURL=main.css.map */
