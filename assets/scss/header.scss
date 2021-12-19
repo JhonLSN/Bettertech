@@ -1,29 +1,43 @@
-.header{
+.header {
   background: url(../img/desktop/image-hero.jpg);
   height: 100vh;
   background-repeat: no-repeat;
   background-size: cover;
 
-  &__nav{
+  &__nav {
     display: flex;
     justify-content: space-between;
     align-items: center;
     padding: 20px 80px;
 
-    &__list{
+    &__list {
       display: flex;
 
-      &-anchor{
+      &-anchor {
         color: #fff;
-        font-family: 'Alata', sans-serif;
+        font-family: "Alata", sans-serif;
         margin-right: 20px;
         // font-family: 'Josefin Sans', sans-serif;
       }
     }
 
-    &__icon-hamburger{
+    &__icon-hamburger {
       display: none;
     }
   }
 
+  &__text-box {
+    margin-top: 20vh;
+    margin-left: 10vh;
+
+    &__title {
+      font-family: "Josefin Sans", sans-serif;
+      font-size: 4rem;
+      color: #fff;
+      border: 2px solid #fff;
+      width: 50%;
+      text-transform: uppercase;
+      padding: 30px;
+    }
+  }
 }

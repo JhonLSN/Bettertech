@@ -80,11 +80,26 @@ table {
 
 .header__nav__list-anchor {
   color: #fff;
-  font-family: 'Alata', sans-serif;
+  font-family: "Alata", sans-serif;
   margin-right: 20px;
 }
 
 .header__nav__icon-hamburger {
   display: none;
+}
+
+.header__text-box {
+  margin-top: 20vh;
+  margin-left: 10vh;
+}
+
+.header__text-box__title {
+  font-family: "Josefin Sans", sans-serif;
+  font-size: 4rem;
+  color: #fff;
+  border: 2px solid #fff;
+  width: 50%;
+  text-transform: uppercase;
+  padding: 30px;
 }
 /*# sourceMappingURL=bundle.css.map */
