@@ -1,0 +1,21 @@
+.main {
+  padding: 100px 60px;
+  font-family: 'Josefin Sans', sans-serif;
+}
+
+.main__about {
+  position: relative;
+}
+
+.main__about img {
+  max-width: 100%;
+}
+
+.main__about-info {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  background: #fff;
+  width: 50%;
+}
+/*# sourceMappingURL=main.css.map */
