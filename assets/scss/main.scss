@@ -1,6 +1,6 @@
 .main {
   padding: 100px 60px;
-  font-family: 'Josefin Sans', sans-serif;
+  font-family: "Josefin Sans", sans-serif;
 
   &__about {
     position: relative;
@@ -9,12 +9,24 @@
       max-width: 100%;
     }
 
-    &-info{
+    &-info {
       position: absolute;
       right: 0;
       bottom: 0;
       background: #fff;
-      width: 50%;
+      width: 40%;
+      padding: 75px 75px 5px 75px;
+
+      &__title {
+        font-size: 2.8em;
+        text-align: center;
+        text-transform: uppercase;
+        margin-bottom: 20px;
+      }
+
+      &__paragraph {
+        line-height: 20px;
+      }
     }
   }
 }

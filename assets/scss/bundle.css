@@ -124,7 +124,7 @@ table {
 
 .main {
   padding: 100px 60px;
-  font-family: 'Josefin Sans', sans-serif;
+  font-family: "Josefin Sans", sans-serif;
 }
 
 .main__about {
@@ -140,6 +140,18 @@ table {
   right: 0;
   bottom: 0;
   background: #fff;
-  width: 50%;
+  width: 40%;
+  padding: 75px 75px 5px 75px;
+}
+
+.main__about-info__title {
+  font-size: 2.8em;
+  text-align: center;
+  text-transform: uppercase;
+  margin-bottom: 20px;
+}
+
+.main__about-info__paragraph {
+  line-height: 20px;
 }
 /*# sourceMappingURL=bundle.css.map */
