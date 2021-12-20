@@ -285,7 +285,7 @@ table {
   transition: all ease .5s;
 }
 
-.footer__nav__social_media {
+.footer-social_media {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -295,13 +295,13 @@ table {
           flex-flow: column nowrap;
 }
 
-.footer__nav__social_media .social-media {
+.footer-social_media .social-media {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
 }
 
-.footer__nav__social_media .social-media__icon {
+.footer-social_media .social-media__icon {
   color: #fff;
   margin-right: 20px;
 }

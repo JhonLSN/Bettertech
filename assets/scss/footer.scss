@@ -2,7 +2,7 @@
   padding: 20px 60px;
   display: flex;
   justify-content: space-between;
-  align-items: center;
+  align-items: stretch;
   font-family: "Josefin Sans", sans-serif;
   background: #000;
 
@@ -38,19 +38,21 @@
         }
       }
     }
+  }  
 
-    &__social_media{
+  &-social_media{
+    display: flex;
+    flex-flow: column nowrap;
+
+    & .social-media{
       display: flex;
-      flex-flow: column nowrap;
 
-      & .social-media{
-        display: flex;
-
-        &__icon{
-          color: #fff;
-          margin-right: 20px;
-        }
+      &__icon{
+        color: #fff;
+        margin-right: 20px;
       }
     }
+
+    & .copyright
   }
 }
