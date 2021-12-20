@@ -1,7 +1,23 @@
 .footer {
-  padding: 40px 60px;
+  padding: 20px 60px;
   display: flex;
   justify-content: space-between;
+  align-items: center;
   font-family: "Josefin Sans", sans-serif;
   background: #000;
+
+  &__nav {
+    display: flex;
+    flex-flow: column nowrap;
+    
+    &__list{
+      display: flex;
+      margin-top: 20px;
+
+      &-anchor{
+        color: #fff;
+        margin-right: 20px;
+      }
+    }
+  }
 }
