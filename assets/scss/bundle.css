@@ -306,6 +306,54 @@ table {
     text-align: center;
     width: 100%;
   }
+  .main__creation .card-view__earth-desktop {
+    display: none;
+  }
+  .main__creation .card-view__earth-mobile {
+    display: block;
+  }
+  .main__creation .card-view__arcade-desktop {
+    display: none;
+  }
+  .main__creation .card-view__arcade-mobile {
+    display: block;
+  }
+  .main__creation .card-view__soccer-desktop {
+    display: none;
+  }
+  .main__creation .card-view__soccer-mobile {
+    display: block;
+  }
+  .main__creation .card-view__grid-desktop {
+    display: none;
+  }
+  .main__creation .card-view__grid-mobile {
+    display: block;
+  }
+  .main__creation .card-view__above-desktop {
+    display: none;
+  }
+  .main__creation .card-view__above-mobile {
+    display: block;
+  }
+  .main__creation .card-view__borealis-desktop {
+    display: none;
+  }
+  .main__creation .card-view__borealis-mobile {
+    display: block;
+  }
+  .main__creation .card-view__curiosity-desktop {
+    display: none;
+  }
+  .main__creation .card-view__curiosity-mobile {
+    display: block;
+  }
+  .main__creation .card-view__fisheye-desktop {
+    display: none;
+  }
+  .main__creation .card-view__fisheye-mobile {
+    display: block;
+  }
   .main__creation .card-view img {
     border-radius: 5px;
   }

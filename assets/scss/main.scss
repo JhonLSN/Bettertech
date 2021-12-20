@@ -147,21 +147,69 @@
             display: none;
           }
 
-          &__earth-desktop{
+          &__earth-mobile{
+            display: block;
+          }
+
+          &__arcade-desktop{
             display: none;
           }
 
-          & img {
-            border-radius: 5px;
+          &__arcade-mobile{
+            display: block;
           }
 
-          &__legend {
-            position: absolute;
-            bottom: 0;
-            color: white;
-            padding: 20px;
-            font-size: 1.2rem;
-            text-transform: uppercase;
+          &__soccer-desktop{
+            display: none;
+          }
+
+          &__soccer-mobile{
+            display: block;
+          }
+
+          &__grid-desktop{
+            display: none;
+          }
+
+          &__grid-mobile{
+            display: block;
+          }
+
+          &__above-desktop{
+            display: none;
+          }
+
+          &__above-mobile{
+            display: block;
+          }
+
+          &__borealis-desktop{
+            display: none;
+          }
+
+          &__borealis-mobile{
+            display: block;
+          }
+
+          &__curiosity-desktop{
+            display: none;
+          }
+
+          &__curiosity-mobile{
+            display: block;
+          }
+
+          &__fisheye-desktop{
+            display: none;
+          }
+
+          &__fisheye-mobile{
+            display: block;
+          }
+
+          & img {
+            max-width: 100%;
+            margin: 5px 0;
           }
         }
       }

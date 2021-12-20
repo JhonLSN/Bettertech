@@ -160,19 +160,54 @@
   .main__creation .card-view__earth-desktop {
     display: none;
   }
-  .main__creation .card-view__earth-desktop {
+  .main__creation .card-view__earth-mobile {
+    display: block;
+  }
+  .main__creation .card-view__arcade-desktop {
     display: none;
   }
-  .main__creation .card-view img {
-    border-radius: 5px;
+  .main__creation .card-view__arcade-mobile {
+    display: block;
   }
-  .main__creation .card-view__legend {
-    position: absolute;
-    bottom: 0;
-    color: white;
-    padding: 20px;
-    font-size: 1.2rem;
-    text-transform: uppercase;
+  .main__creation .card-view__soccer-desktop {
+    display: none;
+  }
+  .main__creation .card-view__soccer-mobile {
+    display: block;
+  }
+  .main__creation .card-view__grid-desktop {
+    display: none;
+  }
+  .main__creation .card-view__grid-mobile {
+    display: block;
+  }
+  .main__creation .card-view__above-desktop {
+    display: none;
+  }
+  .main__creation .card-view__above-mobile {
+    display: block;
+  }
+  .main__creation .card-view__borealis-desktop {
+    display: none;
+  }
+  .main__creation .card-view__borealis-mobile {
+    display: block;
+  }
+  .main__creation .card-view__curiosity-desktop {
+    display: none;
+  }
+  .main__creation .card-view__curiosity-mobile {
+    display: block;
+  }
+  .main__creation .card-view__fisheye-desktop {
+    display: none;
+  }
+  .main__creation .card-view__fisheye-mobile {
+    display: block;
+  }
+  .main__creation .card-view img {
+    max-width: 100%;
+    margin: 5px 0;
   }
   .main__creation__btn {
     display: -webkit-box;
