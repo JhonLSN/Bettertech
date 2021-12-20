@@ -60,3 +60,40 @@
     }
   }
 }
+
+@media screen and (max-width: 700px) {
+  .header {
+    background: url(../img/mobile/image-hero.jpg);
+  
+    &__nav {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 20px 40px;
+  
+      &__list {
+        display: none;
+      }
+  
+      &__icon-hamburger {
+        display: block;
+      }
+    }
+  
+    &__text-box {
+      margin-top: 20vh;
+      margin-left: 0;
+  
+      &__title {
+        font-family: "Josefin Sans", sans-serif;
+        font-size: 2rem;
+        color: #fff;
+        border: 2px solid #fff;
+        text-transform: uppercase;
+        padding: 15px;
+        width: 100%;
+        text-align: center;
+      }
+    }
+  }
+}
