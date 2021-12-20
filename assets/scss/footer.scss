@@ -15,8 +15,41 @@
       margin-top: 20px;
 
       &-anchor{
+        position: relative;
         color: #fff;
         margin-right: 20px;
+
+        &:hover {
+          &::after{
+            width: 100%;
+          }
+        }
+
+        &::after{
+          content: "";
+          position: absolute;
+          width: 0;
+          height: 2px;
+          bottom: -10px;
+          left: 50%;
+          background: #fff;
+          transform: translateX(-50%);
+          transition: all ease .5s;
+        }
+      }
+    }
+
+    &__social_media{
+      display: flex;
+      flex-flow: column nowrap;
+
+      & .social-media{
+        display: flex;
+
+        &__icon{
+          color: #fff;
+          margin-right: 20px;
+        }
       }
     }
   }

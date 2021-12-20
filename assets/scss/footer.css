@@ -31,6 +31,46 @@
 }
 
 .footer__nav__list-anchor {
+  position: relative;
+  color: #fff;
+  margin-right: 20px;
+}
+
+.footer__nav__list-anchor:hover::after {
+  width: 100%;
+}
+
+.footer__nav__list-anchor::after {
+  content: "";
+  position: absolute;
+  width: 0;
+  height: 2px;
+  bottom: -10px;
+  left: 50%;
+  background: #fff;
+  -webkit-transform: translateX(-50%);
+          transform: translateX(-50%);
+  -webkit-transition: all ease .5s;
+  transition: all ease .5s;
+}
+
+.footer__nav__social_media {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: column nowrap;
+          flex-flow: column nowrap;
+}
+
+.footer__nav__social_media .social-media {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.footer__nav__social_media .social-media__icon {
   color: #fff;
   margin-right: 20px;
 }
