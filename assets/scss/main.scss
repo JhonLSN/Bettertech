@@ -56,6 +56,70 @@
 
         & img {
           border-radius: 5px;
+        }        
+
+        &__earth-desktop{
+          display: block;
+        }
+
+        &__earth-mobile{
+          display: none;
+        }
+
+        &__arcade-desktop{
+          display: block;
+        }
+
+        &__arcade-mobile{
+          display: none;
+        }
+
+        &__soccer-desktop{
+          display: block;
+        }
+
+        &__soccer-mobile{
+          display: none;
+        }
+
+        &__grid-desktop{
+          display: block;
+        }
+
+        &__grid-mobile{
+          display: none;
+        }
+
+        &__above-desktop{
+          display: block;
+        }
+
+        &__above-mobile{
+          display: none;
+        }
+
+        &__borealis-desktop{
+          display: block;
+        }
+
+        &__borealis-mobile{
+          display: none;
+        }
+
+        &__curiosity-desktop{
+          display: block;
+        }
+
+        &__curiosity-mobile{
+          display: none;
+        }
+
+        &__fisheye-desktop{
+          display: block;
+        }
+
+        &__fisheye-mobile{
+          display: none;
         }
 
         &__legend {
@@ -210,31 +274,6 @@
           & img {
             max-width: 100%;
             margin: 5px 0;
-          }
-        }
-      }
-
-      &__btn {
-        display: flex;
-        justify-content: center;
-
-        & .btn {
-          background: #fff;
-          color: #000;
-          outline: none;
-          border: 1px solid #010103;
-          text-transform: uppercase;
-          font-size: 1em;
-          margin-top: 20px;
-          padding: 10px 20px;
-          cursor: pointer;
-          font-family: "Josefin Sans", sans-serif;
-          transition: all ease 0.4s;
-
-          &:hover {
-            background: #000;
-            color: #fff;
-            transition: all ease 0.4s;
           }
         }
       }
