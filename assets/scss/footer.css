@@ -147,22 +147,6 @@
     font-size: 1.3em;
     text-align: center;
   }
-  .footer__nav__list-anchor:hover::after {
-    width: 100%;
-  }
-  .footer__nav__list-anchor::after {
-    content: "";
-    position: absolute;
-    width: 0;
-    height: 2px;
-    bottom: -10px;
-    left: 50%;
-    background: #fff;
-    -webkit-transform: translateX(-50%);
-            transform: translateX(-50%);
-    -webkit-transition: all ease .5s;
-    transition: all ease .5s;
-  }
   .footer-social_media {
     display: -webkit-box;
     display: -ms-flexbox;
@@ -176,31 +160,19 @@
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    margin-top: 10px;
   }
   .footer-social_media .social-media__icon {
-    position: relative;
-    color: #fff;
     margin-right: 20px;
   }
-  .footer-social_media .social-media__icon:hover::after {
-    width: 100%;
-  }
-  .footer-social_media .social-media__icon::after {
-    position: absolute;
-    content: "";
-    width: 0;
-    height: 2px;
-    bottom: -10px;
-    left: 50%;
-    background: #fff;
-    -webkit-transform: translateX(-50%);
-            transform: translateX(-50%);
-    -webkit-transition: all ease .3s;
-    transition: all ease .3s;
-  }
   .footer-social_media .copyright {
-    color: grey;
-    margin-top: 20px;
+    text-align: center;
   }
 }
 /*# sourceMappingURL=footer.css.map */

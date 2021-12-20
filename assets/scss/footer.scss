@@ -106,24 +106,6 @@
           margin-top: 10px;
           font-size: 1.3em;
           text-align: center;
-          
-          &:hover {
-            &::after{
-              width: 100%;
-            }
-          }
-  
-          &::after{
-            content: "";
-            position: absolute;
-            width: 0;
-            height: 2px;
-            bottom: -10px;
-            left: 50%;
-            background: #fff;
-            transform: translateX(-50%);
-            transition: all ease .5s;
-          }
         }
       }
     }  
@@ -134,35 +116,17 @@
   
       & .social-media{
         display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-top: 20px;
   
         &__icon{
-          position: relative;
-          color: #fff;
           margin-right: 20px;
-  
-          &:hover{
-            &::after{
-              width: 100%;
-            }
-          }
-  
-          &::after {
-            position: absolute;
-            content: "";
-            width: 0;
-            height: 2px;
-            bottom: -10px;
-            left: 50%;
-            background: #fff;
-            transform: translateX(-50%);
-            transition: all ease .3s;
-          }
         }
       }
   
       & .copyright {
-        color: grey;
-        margin-top: 20px;
+        text-align: center;
       }
     }
   }
