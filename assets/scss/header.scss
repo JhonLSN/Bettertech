@@ -78,13 +78,16 @@
     }
   
     &__text-box {
+      display: flex;
+      align-items: center;
+      justify-content: center;
       margin-top: 20vh;
       margin-left: 0;
   
       &__title {
         font-size: 2rem;
         padding: 15px;
-        width: 100%;
+        width: 80%;
         text-align: center;
       }
     }

@@ -166,13 +166,14 @@
     -webkit-box-pack: center;
         -ms-flex-pack: center;
             justify-content: center;
-    margin-top: 10px;
+    margin-top: 20px;
   }
   .footer-social_media .social-media__icon {
     margin-right: 20px;
   }
   .footer-social_media .copyright {
     text-align: center;
+    width: 100%;
   }
 }
 /*# sourceMappingURL=footer.css.map */
