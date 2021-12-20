@@ -71,8 +71,27 @@
 }
 
 .footer-social_media .social-media__icon {
+  position: relative;
   color: #fff;
   margin-right: 20px;
+}
+
+.footer-social_media .social-media__icon:hover::after {
+  width: 100%;
+}
+
+.footer-social_media .social-media__icon::after {
+  position: absolute;
+  content: "";
+  width: 0;
+  height: 2px;
+  bottom: -10px;
+  left: 50%;
+  background: #fff;
+  -webkit-transform: translateX(-50%);
+          transform: translateX(-50%);
+  -webkit-transition: all ease .3s;
+  transition: all ease .3s;
 }
 
 .footer-social_media .copyright {
