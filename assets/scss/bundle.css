@@ -260,7 +260,7 @@ table {
 
 @media screen and (max-width: 700px) {
   .main {
-    padding: 40px 60px 20px 60px;
+    padding: 20px;
   }
   .main__about-interactive-mobile {
     display: block;
@@ -289,17 +289,22 @@ table {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
-    -webkit-box-orient: horizontal;
+    -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
-        -ms-flex-flow: row wrap;
-            flex-flow: row wrap;
-    -webkit-box-pack: justify;
-        -ms-flex-pack: justify;
-            justify-content: space-between;
+        -ms-flex-flow: column nowrap;
+            flex-flow: column nowrap;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
   }
   .main__creation .card-view {
     position: relative;
-    margin: 20px 0;
+    margin: 0;
+    text-align: center;
+    width: 100%;
   }
   .main__creation .card-view img {
     border-radius: 5px;
