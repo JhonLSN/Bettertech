@@ -5,7 +5,7 @@
   &__about {
     position: relative;
 
-    &-interactive-mobile{
+    &-interactive-mobile {
       display: none;
     }
 
@@ -99,16 +99,17 @@
 @media screen and (max-width: 700px) {
   .main {
     padding: 40px 60px 20px 60px;
-  
+
     &__about {
-      &-interactive-mobile{
+      &-interactive-mobile {
         display: block;
+        margin-bottom: 30px;
       }
 
-      &-interactive-desktop{
+      &-interactive-desktop {
         display: none;
       }
-  
+
       &-info {
         position: relative;
         right: 0;
@@ -117,42 +118,32 @@
         padding: 0;
         border-top-left-radius: 0;
         text-align: justify;
-  
+
         &__title {
-          font-size: 2.8em;
-          text-align: center;
-          text-transform: uppercase;
-          margin-bottom: 20px;
-        }
-  
-        &__paragraph {
-          line-height: 20px;
+          font-size: 2em;
         }
       }
     }
-  
+
     &__creation {
-      padding: 50px 0;
-  
       &__title {
-        font-size: 2.5rem;
-        margin-bottom: 20px;
-        text-transform: uppercase;
+        font-size: 2rem;
+        text-align: center;
       }
-  
+
       & .card {
         display: flex;
         flex-flow: row wrap;
         justify-content: space-between;
-  
+
         &-view {
           position: relative;
           margin: 20px 0;
-  
+
           & img {
             border-radius: 5px;
           }
-  
+
           &__legend {
             position: absolute;
             bottom: 0;
@@ -163,11 +154,11 @@
           }
         }
       }
-  
+
       &__btn {
         display: flex;
         justify-content: center;
-  
+
         & .btn {
           background: #fff;
           color: #000;
@@ -180,7 +171,7 @@
           cursor: pointer;
           font-family: "Josefin Sans", sans-serif;
           transition: all ease 0.4s;
-  
+
           &:hover {
             background: #000;
             color: #fff;
