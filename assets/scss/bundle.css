@@ -281,13 +281,9 @@ table {
   .main__about-info__title {
     font-size: 2em;
   }
-  .main__creation {
-    padding: 50px 0;
-  }
   .main__creation__title {
-    font-size: 2.5rem;
-    margin-bottom: 20px;
-    text-transform: uppercase;
+    font-size: 2rem;
+    text-align: center;
   }
   .main__creation .card {
     display: -webkit-box;
