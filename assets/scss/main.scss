@@ -5,6 +5,10 @@
   &__about {
     position: relative;
 
+    &-interactive-mobile{
+      display: none;
+    }
+
     & img {
       max-width: 100%;
       border-radius: 10px;
@@ -86,6 +90,102 @@
           background: #000;
           color: #fff;
           transition: all ease 0.4s;
+        }
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 700px) {
+  .main {
+    padding: 40px 60px 20px 60px;
+  
+    &__about {
+      &-interactive-mobile{
+        display: block;
+      }
+
+      &-interactive-desktop{
+        display: none;
+      }
+  
+      &-info {
+        position: relative;
+        right: 0;
+        bottom: 0;
+        width: 100%;
+        padding: 0;
+        border-top-left-radius: 0;
+        text-align: justify;
+  
+        &__title {
+          font-size: 2.8em;
+          text-align: center;
+          text-transform: uppercase;
+          margin-bottom: 20px;
+        }
+  
+        &__paragraph {
+          line-height: 20px;
+        }
+      }
+    }
+  
+    &__creation {
+      padding: 50px 0;
+  
+      &__title {
+        font-size: 2.5rem;
+        margin-bottom: 20px;
+        text-transform: uppercase;
+      }
+  
+      & .card {
+        display: flex;
+        flex-flow: row wrap;
+        justify-content: space-between;
+  
+        &-view {
+          position: relative;
+          margin: 20px 0;
+  
+          & img {
+            border-radius: 5px;
+          }
+  
+          &__legend {
+            position: absolute;
+            bottom: 0;
+            color: white;
+            padding: 20px;
+            font-size: 1.2rem;
+            text-transform: uppercase;
+          }
+        }
+      }
+  
+      &__btn {
+        display: flex;
+        justify-content: center;
+  
+        & .btn {
+          background: #fff;
+          color: #000;
+          outline: none;
+          border: 1px solid #010103;
+          text-transform: uppercase;
+          font-size: 1em;
+          margin-top: 20px;
+          padding: 10px 20px;
+          cursor: pointer;
+          font-family: "Josefin Sans", sans-serif;
+          transition: all ease 0.4s;
+  
+          &:hover {
+            background: #000;
+            color: #fff;
+            transition: all ease 0.4s;
+          }
         }
       }
     }

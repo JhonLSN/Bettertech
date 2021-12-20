@@ -73,15 +73,6 @@
     background: url(../img/mobile/image-hero.jpg);
   }
   .header__nav {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-pack: justify;
-        -ms-flex-pack: justify;
-            justify-content: space-between;
-    -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
     padding: 20px 40px;
   }
   .header__nav__list {
@@ -95,11 +86,7 @@
     margin-left: 0;
   }
   .header__text-box__title {
-    font-family: "Josefin Sans", sans-serif;
     font-size: 2rem;
-    color: #fff;
-    border: 2px solid #fff;
-    text-transform: uppercase;
     padding: 15px;
     width: 100%;
     text-align: center;

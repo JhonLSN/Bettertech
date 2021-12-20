@@ -1,10 +1,14 @@
 .main {
-  padding: 100px 60px;
+  padding: 100px 60px 20px 60px;
   font-family: "Josefin Sans", sans-serif;
 }
 
 .main__about {
   position: relative;
+}
+
+.main__about-interactive-mobile {
+  display: none;
 }
 
 .main__about img {
@@ -103,5 +107,98 @@
   color: #fff;
   -webkit-transition: all ease 0.4s;
   transition: all ease 0.4s;
+}
+
+@media screen and (max-width: 700px) {
+  .main {
+    padding: 40px 60px 20px 60px;
+  }
+  .main__about-interactive-mobile {
+    display: block;
+  }
+  .main__about-interactive-desktop {
+    display: none;
+  }
+  .main__about-info {
+    position: relative;
+    right: 0;
+    bottom: 0;
+    width: 100%;
+    padding: 0;
+    border-top-left-radius: 0;
+    text-align: justify;
+  }
+  .main__about-info__title {
+    font-size: 2.8em;
+    text-align: center;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+  }
+  .main__about-info__paragraph {
+    line-height: 20px;
+  }
+  .main__creation {
+    padding: 50px 0;
+  }
+  .main__creation__title {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+  }
+  .main__creation .card {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-flow: row wrap;
+            flex-flow: row wrap;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+  }
+  .main__creation .card-view {
+    position: relative;
+    margin: 20px 0;
+  }
+  .main__creation .card-view img {
+    border-radius: 5px;
+  }
+  .main__creation .card-view__legend {
+    position: absolute;
+    bottom: 0;
+    color: white;
+    padding: 20px;
+    font-size: 1.2rem;
+    text-transform: uppercase;
+  }
+  .main__creation__btn {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  .main__creation__btn .btn {
+    background: #fff;
+    color: #000;
+    outline: none;
+    border: 1px solid #010103;
+    text-transform: uppercase;
+    font-size: 1em;
+    margin-top: 20px;
+    padding: 10px 20px;
+    cursor: pointer;
+    font-family: "Josefin Sans", sans-serif;
+    -webkit-transition: all ease 0.4s;
+    transition: all ease 0.4s;
+  }
+  .main__creation__btn .btn:hover {
+    background: #000;
+    color: #fff;
+    -webkit-transition: all ease 0.4s;
+    transition: all ease 0.4s;
+  }
 }
 /*# sourceMappingURL=main.css.map */
