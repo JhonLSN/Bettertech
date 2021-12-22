@@ -150,7 +150,7 @@ table {
     transition: all ease 0.6s;
   }
   .header.active {
-    background: black;
+    background: linear-gradient(181deg, #000000, #000000a6), url(../img/mobile/image-hero.jpg);
     -webkit-transition: all ease 0.6s;
     transition: all ease 0.6s;
   }
@@ -184,27 +184,31 @@ table {
     transition: all ease 0.6s;
   }
   .header__nav__list li {
-    margin-top: 30px;
+    border-bottom: 1px solid #fff;
+    width: 100%;
+    text-align: center;
+    border: 1px solid #383838;
+    padding: 20px 0;
   }
   .header__nav__list-anchor {
     margin-right: 0;
     font-size: 1.5em;
   }
-  .header__nav__list-anchor::after {
-    bottom: -5px;
+  .header__nav__list-anchor:hover::after {
+    width: 0;
   }
   .header__nav__icon-hamburger {
     display: block;
-    -webkit-transform: rotate(360deg);
-            transform: rotate(360deg);
+    -webkit-transform: rotate(0deg);
+            transform: rotate(0deg);
     -webkit-transition: all ease 0.6s;
     transition: all ease 0.6s;
   }
   .header__nav__icon-hamburger.active {
-    -webkit-transform: translate(180deg);
-            transform: translate(180deg);
-    -webkit-transition: all ease 0.6s;
-    transition: all ease 0.6s;
+    -webkit-transform: rotate(360deg);
+            transform: rotate(360deg);
+    -webkit-transition: all ease .6s;
+    transition: all ease .6s;
   }
   .header__text-box {
     display: -webkit-box;
