@@ -70,13 +70,52 @@
 
 @media screen and (max-width: 700px) {
   .header {
+    position: relative;
     background: url(../img/mobile/image-hero.jpg);
+    -webkit-transition: all ease 10s;
+    transition: all ease 10s;
+  }
+  .header.active {
+    background: url(../img/mobile/image-hero.jpg);
+    -webkit-transition: all ease 10s;
+    transition: all ease 10s;
   }
   .header__nav {
     padding: 20px 40px;
   }
   .header__nav__list {
-    display: none;
+    visibility: hidden;
+    position: absolute;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    top: 0;
+    width: 100%;
+    left: 0;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    margin-top: 62px;
+  }
+  .header__nav__list.active {
+    visibility: auto;
+  }
+  .header__nav__list li {
+    margin-top: 30px;
+  }
+  .header__nav__list-anchor {
+    margin-right: 0;
+    font-size: 1.5em;
+  }
+  .header__nav__list-anchor::after {
+    bottom: -5px;
   }
   .header__nav__icon-hamburger {
     display: block;

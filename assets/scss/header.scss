@@ -63,27 +63,60 @@
 
 @media screen and (max-width: 700px) {
   .header {
+    position: relative;
     background: url(../img/mobile/image-hero.jpg);
-  
+    transition: all ease 10s;
+
+    &.active {
+      background: url(../img/mobile/image-hero.jpg);
+      transition: all ease 10s;
+    }
+
     &__nav {
       padding: 20px 40px;
-  
+
       &__list {
-        display: none;
-      }
+        visibility: hidden;
+        position: absolute;
+        display: flex;
+        flex-direction: column;
+        top: 0;
+        width: 100%;
+        left: 0;
+        align-items: center;
+        justify-content: center;
+        margin-top: 62px;
+
+        &.active{
+          visibility: auto;
+        }
+
+        & li{
+          margin-top: 30px;
+        }
+
+        &-anchor {
+          margin-right: 0;
+          font-size: 1.5em;
   
+          &::after {
+            bottom: -5px;
+          }
+        }
+      }
+
       &__icon-hamburger {
         display: block;
       }
     }
-  
+
     &__text-box {
       display: flex;
       align-items: center;
       justify-content: center;
       margin-top: 20vh;
       margin-left: 0;
-  
+
       &__title {
         font-size: 2rem;
         padding: 15px;
