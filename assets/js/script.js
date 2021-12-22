@@ -16,4 +16,10 @@ btnHamburguer.addEventListener('click', () => {
   } else {
     navList.classList.add('active')
   }
+
+  if(navTxtBox.classList.contains('active')){
+    navTxtBox.classList.remove('active')
+  } else {
+    navTxtBox.classList.add('active')
+  }
 })

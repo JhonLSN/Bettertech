@@ -72,13 +72,13 @@
   .header {
     position: relative;
     background: url(../img/mobile/image-hero.jpg);
-    -webkit-transition: all ease 10s;
-    transition: all ease 10s;
+    -webkit-transition: all ease .6s;
+    transition: all ease .6s;
   }
   .header.active {
-    background: url(../img/mobile/image-hero.jpg);
-    -webkit-transition: all ease 10s;
-    transition: all ease 10s;
+    background: black;
+    -webkit-transition: all ease .6s;
+    transition: all ease .6s;
   }
   .header__nav {
     padding: 20px 40px;
@@ -105,7 +105,7 @@
     margin-top: 62px;
   }
   .header__nav__list.active {
-    visibility: auto;
+    visibility: visible;
   }
   .header__nav__list li {
     margin-top: 30px;
@@ -132,6 +132,9 @@
             justify-content: center;
     margin-top: 20vh;
     margin-left: 0;
+  }
+  .header__text-box.active {
+    visibility: hidden;
   }
   .header__text-box__title {
     font-size: 2rem;
