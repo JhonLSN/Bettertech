@@ -1,3 +1,19 @@
+* {
+	::-webkit-scrollbar-track {
+		background: black;
+		transition: all ease .6s;
+	}
+	::-webkit-scrollbar {
+		width: 6px;
+		background: #f4f4f4;
+		transition: all ease .6s;
+	}
+	::-webkit-scrollbar-thumb {
+		background: linear-gradient(to top, #a71c41, #f02d7e);
+		transition: all ease .6s;
+	}
+}
+
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
 a, abbr, acronym, address, big, cite, code,
