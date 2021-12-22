@@ -5,7 +5,7 @@
 }
 
 * ::-webkit-scrollbar {
-  width: 6px;
+  width: 5px;
   background: #f4f4f4;
   -webkit-transition: all ease .6s;
   transition: all ease .6s;
