@@ -6,6 +6,13 @@ const navTxtBox = document.querySelector('.header__text-box')
 btnHamburguer.addEventListener('click', () => {
 
   
+  if(btnHamburguer.classList.contains('active')){
+    btnHamburguer.classList.remove('active')
+    btnHamburguer.src = '/assets/img/icon-hamburger.svg'
+  } else {
+    btnHamburguer.classList.add('active')
+    btnHamburguer.src = '/assets/img/icon-close.svg'
+  }
 
   if(header.classList.contains('active')){
     header.classList.remove('active')
