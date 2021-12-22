@@ -89,6 +89,7 @@
 
         &.active{
           visibility: visible;
+          transition: all ease .6s;
         }
 
         & li{

@@ -5,6 +5,8 @@ const navTxtBox = document.querySelector('.header__text-box')
 
 btnHamburguer.addEventListener('click', () => {
 
+  
+
   if(header.classList.contains('active')){
     header.classList.remove('active')
   } else {
