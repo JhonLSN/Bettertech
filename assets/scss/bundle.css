@@ -1,5 +1,5 @@
 * ::-webkit-scrollbar-track {
-  background: black;
+  background: #000;
   -webkit-transition: all ease .6s;
   transition: all ease .6s;
 }
