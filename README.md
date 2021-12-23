@@ -18,3 +18,16 @@ A aplicação é um Web Site que faz referências a uma empresa de tecnologias.
 Ela foi criada do zero, além dos códigos que foram feitos por mim.
 **As imagens foram retiradas do site Fron-End MTR**
 O projeto foi criado com o intuito de praticar o Desenvolvimento Front-End e melhorar determinadas ferramentas uitlizadas durante a implementação.
+
+Nela contêm o recurso de: 
+- Interagir com o layout.
+- Reponsividade.
+
+## :hammer: Tecnologias
+Este projeto foi feito com as seguintes tecnologias:
+- HTML5
+- CSS3
+- JavaScript 
+- SASS
+
+Acesse o projeto [Clicando Aqui](https://jhonlsn.github.io/Bettertech/) 
