@@ -1,3 +1,6 @@
+$primary-color: #fff;
+$secondary-color: #000;
+
 .main {
   padding: 100px 60px 20px 60px;
   font-family: "Josefin Sans", sans-serif;
@@ -18,7 +21,7 @@
       position: absolute;
       right: 0;
       bottom: 0;
-      background: #fff;
+      background: $primary-color;
       width: 40%;
       padding: 75px 75px 5px 75px;
       border-top-left-radius: 10px;
