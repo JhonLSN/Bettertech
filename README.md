@@ -21,7 +21,6 @@ O projeto foi criado com o intuito de praticar o Desenvolvimento Front-End e mel
 
 Nela contêm o recurso de: 
 - Interagir com o layout.
-- Modo escuro
 - Reponsividade.
 
 ## :hammer: Tecnologias
